@@ -15,12 +15,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void IrJugar(View view){
-        int randomInt = (int) (Math.random() * 3);
         Intent i;
-        if(randomInt==0) i = new Intent(this, Crucigrama.class);
-        else if (randomInt==1) i = new Intent(this, Sudoku.class);
-        else i = new Intent(this, Sopa_de_Letras.class);
-
+        i = new Intent(this, Sudoku.class);
         startActivity(i);
     }
 
