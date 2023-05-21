@@ -59,7 +59,7 @@ public class GameDifficultyActivity extends AppCompatActivity {
             setResult(RESULT_OK, intent);
             finish();
         } else {
-            Intent intent = new Intent("me.kirkhorn.knut.GameActivity");
+            Intent intent = new Intent("com.example.alzaimer.GameActivity");
             intent.putExtra("difficulty", selectedDifficulty);
             startActivity(intent);
         }

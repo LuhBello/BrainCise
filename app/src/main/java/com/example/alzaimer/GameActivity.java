@@ -10,6 +10,7 @@ import android.widget.Toast;
 
 import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.content.res.ResourcesCompat;
 
 import java.io.BufferedReader;
 import java.io.FileInputStream;
@@ -126,7 +127,7 @@ public class GameActivity extends AppCompatActivity implements CellGroupFragment
             fileInputStream = this.openFileInput(fileName);
             InputStreamReader inputStreamReader = new InputStreamReader(fileInputStream);
             BufferedReader internalBufferedReader = new BufferedReader(inputStreamReader);
-            String line = internalBufferedReader.readLine();
+            String line;
             line = internalBufferedReader.readLine();
             while (line != null) {
                 Board board = new Board();
@@ -182,6 +183,7 @@ public class GameActivity extends AppCompatActivity implements CellGroupFragment
         currentBoard.isBoardCorrect();
         if(checkAllGroups() && currentBoard.isBoardCorrect()) {
             Toast.makeText(this, getString(R.string.board_correct), Toast.LENGTH_SHORT).show();
+            IrFelicidades(view);
         } else {
             Toast.makeText(this, getString(R.string.board_incorrect), Toast.LENGTH_SHORT).show();
         }
@@ -191,12 +193,11 @@ public class GameActivity extends AppCompatActivity implements CellGroupFragment
         finish();
     }
 
-    public void onShowInstructionsButtonClicked(View view) {
-        Intent intent = new Intent("me.kirkhorn.knut.InstructionsActivity");
-        startActivity(intent);
+    public void IrFelicidades(View view){
+        Intent i = new Intent(this, Felicidades.class);
+        startActivity(i);
     }
 
-    @RequiresApi(api = Build.VERSION_CODES.JELLY_BEAN)
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
@@ -207,7 +208,7 @@ public class GameActivity extends AppCompatActivity implements CellGroupFragment
             Button buttonCheckBoard = findViewById(R.id.buttonCheckBoard);
             if (data.getBooleanExtra("removePiece", false)) {
                 clickedCell.setText("");
-                clickedCell.setBackground(getResources().getDrawable(R.drawable.table_border_cell));
+                clickedCell.setBackground(ResourcesCompat.getDrawable(getResources(),R.drawable.table_border_cell, null));
                 currentBoard.setValue(row, column, 0);
                 buttonCheckBoard.setVisibility(View.INVISIBLE);
             } else {
@@ -217,9 +218,9 @@ public class GameActivity extends AppCompatActivity implements CellGroupFragment
 
                 boolean isUnsure = data.getBooleanExtra("isUnsure", false);
                 if (isUnsure) {
-                    clickedCell.setBackground(getResources().getDrawable(R.drawable.table_border_cell_unsure));
+                    clickedCell.setBackground(ResourcesCompat.getDrawable(getResources(),R.drawable.table_border_cell_unsure, null));
                 } else {
-                    clickedCell.setBackground(getResources().getDrawable(R.drawable.table_border_cell));
+                    clickedCell.setBackground(ResourcesCompat.getDrawable(getResources(),R.drawable.table_border_cell, null));
                 }
 
                 if (currentBoard.isBoardFull()) {
@@ -238,7 +239,7 @@ public class GameActivity extends AppCompatActivity implements CellGroupFragment
         clickedCellId = cellId;
         Log.i(TAG, "Clicked group " + groupId + ", cell " + cellId);
         if (!isStartPiece(groupId, cellId)) {
-            Intent intent = new Intent("me.kirkhorn.knut.ChooseNumberActivity");
+            Intent intent = new Intent("com.example.alzaimer.ChooseNumberActivity");
             startActivityForResult(intent, 1);
         } else {
             Toast.makeText(this, getString(R.string.start_piece_error), Toast.LENGTH_SHORT).show();
