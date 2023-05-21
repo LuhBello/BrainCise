@@ -50,18 +50,18 @@
 
     </LinearLayout>
 
-    <ImageButton
-        android:id="@+id/imageButton10"
-        android:layout_width="185dp"
-        android:layout_height="198dp"
-        android:backgroundTint="#00FFFFFF"
-        android:contentDescription="@string/boton_ayuda"
+    <Button
+        android:id="@+id/button"
+        android:layout_width="207dp"
+        android:layout_height="131dp"
+        android:layout_marginBottom="70dp"
+        android:onClick="IrEmpezar"
+        android:text="EMPEZAR"
+        android:textAlignment="center"
+        android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@drawable/image_15" />
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

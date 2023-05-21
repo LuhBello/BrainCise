@@ -15,10 +15,16 @@
         android:theme="@style/Theme.Alzaimer"
         tools:targetApi="31">
         <activity
-            android:name=".Sudoku"
+            android:name=".GameDifficultyActivity"
             android:exported="false" />
         <activity
-            android:name=".Sopa_de_Letras"
+            android:name=".GameActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ChooseNumberActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Sudoku"
             android:exported="false" />
         <activity
             android:name=".Felicidades"
@@ -31,9 +37,6 @@
             android:exported="false" />
         <activity
             android:name=".Tips"
-            android:exported="false" />
-        <activity
-            android:name=".Crucigrama"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
