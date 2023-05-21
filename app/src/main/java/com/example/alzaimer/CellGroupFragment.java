@@ -10,6 +10,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
+import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 
 import java.util.ArrayList;
@@ -28,8 +29,6 @@ public class CellGroupFragment extends Fragment {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        if (getArguments() != null) {
-        }
     }
 
     @Override
@@ -43,12 +42,7 @@ public class CellGroupFragment extends Fragment {
                 R.id.textView5, R.id.textView6, R.id.textView7, R.id.textView8, R.id.textView9};
         for (int textView1 : textViews) {
             TextView textView = view.findViewById(textView1);
-            textView.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View view) {
-                    mListener.onFragmentInteraction(groupId, Integer.parseInt(view.getTag().toString()), view);
-                }
-            });
+            textView.setOnClickListener(view -> mListener.onFragmentInteraction(groupId, Integer.parseInt(view.getTag().toString()), view));
         }
         return view;
     }
@@ -83,7 +77,7 @@ public class CellGroupFragment extends Fragment {
     }
 
     @Override
-    public void onAttach(Context context) {
+    public void onAttach(@NonNull Context context) {
         super.onAttach(context);
         if (context instanceof OnFragmentInteractionListener) {
             mListener = (OnFragmentInteractionListener) context;

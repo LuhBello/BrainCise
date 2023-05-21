@@ -1,7 +1,6 @@
 package com.example.alzaimer;
 
 import androidx.appcompat.app.AppCompatActivity;
-import java.util.Random;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -24,10 +23,7 @@ public class MainActivity extends AppCompatActivity {
         Intent i = new Intent(this, Deporte.class);
         startActivity(i);
     }
-    public void IrFelicidades(View view){
-        Intent i = new Intent(this, Felicidades.class);
-        startActivity(i);
-    }
+
     public void IrLectura(View view){
         Intent i = new Intent(this, Lectura.class);
         startActivity(i);
