@@ -56,6 +56,7 @@
         android:layout_height="198dp"
         android:backgroundTint="#00FFFFFF"
         android:contentDescription="@string/boton_pasar"
+        android:onClick="Recargar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"

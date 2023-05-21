@@ -49,4 +49,9 @@ public class Deporte extends AppCompatActivity {
         Intent i = new Intent(this, MainActivity.class);
         startActivity(i);
     }
+
+    public void Recargar(View view){
+        Intent i = new Intent(this, Deporte.class);
+        startActivity(i);
+    }
 }
