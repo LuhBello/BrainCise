@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="fondo">#FFFFDE59</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="add_new_board">Add new board</string>
+    <string name="app_name">Braincise</string>
+    <string name="board_correct">El tablero es correcto</string>
+    <string name="board_incorrect">El tablero es incorrecto</string>
+    <string name="boton_ayuda">sugerencia o pista</string>
+    <string name="boton_menu">regreso al menu</string>
+    <string name="boton_palabras">boton que despliega las palabras</string>
+    <string name="boton_pasar">boton al siguiente punto</string>
+    <string name="bttn_empezar">EMPEZAR</string>
+    <string name="check_board">Verifica el tablero</string>
+    <string name="choose_a_number">Elige el lugar del número:</string>
+    <string name="choose_difficulty">Escoge la dificultad:</string>
+    <string name="choose_language">Choose language:</string>
+    <string name="choose_number">Elige un número</string>
+    <string name="continue_new_board">Continue</string>
+    <string name="descripcion_imagen_juega">boton para jugar aleatoriamente entre un sudoku crucigrama y sopa de letras</string>
+    <string name="descripcion_imagen_lee">Botón para ver la opcion de datos curiosos noticias y libros</string>
+    <string name="descripcion_imagen_linea">Linea de guines</string>
+    <string name="descripcion_imagen_logo">Logo de la APP</string>
+    <string name="descripcion_imagen_mueve">boton para ver la opcion de gif de ejercicios</string>
+    <string name="descripcion_imagen_tips">boton para ver sugerencias contra el alzaimer</string>
+    <string name="difficulty_easy">Fácil</string>
+    <string name="difficulty_hard">Difícil</string>
+    <string name="difficulty_normal">Normal</string>
+    <string name="fail_new_board">Failed to save new board</string>
+    <string name="go_back_button">Atrás</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="instructions">Instructions</string>
+    <string name="instructions_1">1. In Sudoku it is intended to place all the remaining pieces on the board. The numbers range from 1 to 9 (in 9x9 Sudoku).</string>
+    <string name="instructions_2">2. The board is separated into several squares, and inside each of them it is only allowed to place one of each number.</string>
+    <string name="instructions_3">3. It is only allowed to place one of each number at each row, both horizontal and vertical.</string>
+    <string name="new_game">Start New Game</string>
+    <string name="piece_unsure">Marca al lugar como inseguro</string>
+    <string name="place_number">Lugar del número</string>
+    <string name="remove_piece">Quta el lugar</string>
+    <string name="show_instructions">Show instructions</string>
+    <string name="start_game">Iniciar el juego</string>
+    <string name="start_piece_error">No puedes cambiar este lugar</string>
+    <string name="successful_new_board">New board saved</string>
+    <string name="title_activity_menu">Menu</string>
+    <string name="txt_linea">linea</string>
+    <style name="Base.Theme.Alzaimer" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.Alzaimer" parent="Base.Theme.Alzaimer"/>
+</resources>

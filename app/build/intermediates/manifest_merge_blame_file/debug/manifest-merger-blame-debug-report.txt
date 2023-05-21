@@ -1,0 +1,173 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.alzaimer"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->/home/luisa/Escritorio/Android/Alzaimer/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->/home/luisa/Escritorio/Android/Alzaimer/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/home/luisa/Escritorio/Android/Alzaimer/app/src/main/AndroidManifest.xml:5:5-67
+11-->/home/luisa/Escritorio/Android/Alzaimer/app/src/main/AndroidManifest.xml:5:22-64
+12
+13    <permission
+13-->[androidx.core:core:1.9.0] /home/luisa/.gradle/caches/transforms-3/8c25e88eb4ea76e8f3d0900731d8ae12/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+14        android:name="com.example.alzaimer.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+14-->[androidx.core:core:1.9.0] /home/luisa/.gradle/caches/transforms-3/8c25e88eb4ea76e8f3d0900731d8ae12/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+15        android:protectionLevel="signature" />
+15-->[androidx.core:core:1.9.0] /home/luisa/.gradle/caches/transforms-3/8c25e88eb4ea76e8f3d0900731d8ae12/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+16
+17    <uses-permission android:name="com.example.alzaimer.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+17-->[androidx.core:core:1.9.0] /home/luisa/.gradle/caches/transforms-3/8c25e88eb4ea76e8f3d0900731d8ae12/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+17-->[androidx.core:core:1.9.0] /home/luisa/.gradle/caches/transforms-3/8c25e88eb4ea76e8f3d0900731d8ae12/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+18
+19    <application
+19-->/home/luisa/Escritorio/Android/Alzaimer/app/src/main/AndroidManifest.xml:7:5-61:19
+20        android:allowBackup="true"
+20-->/home/luisa/Escritorio/Android/Alzaimer/app/src/main/AndroidManifest.xml:8:9-35
+21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+21-->[androidx.core:core:1.9.0] /home/luisa/.gradle/caches/transforms-3/8c25e88eb4ea76e8f3d0900731d8ae12/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+22        android:dataExtractionRules="@xml/data_extraction_rules"
+22-->/home/luisa/Escritorio/Android/Alzaimer/app/src/main/AndroidManifest.xml:9:9-65
+23        android:debuggable="true"
+24        android:extractNativeLibs="false"
+25        android:fullBackupContent="@xml/backup_rules"
+25-->/home/luisa/Escritorio/Android/Alzaimer/app/src/main/AndroidManifest.xml:10:9-54
+26        android:icon="@drawable/image_11_1"
+26-->/home/luisa/Escritorio/Android/Alzaimer/app/src/main/AndroidManifest.xml:11:9-44
+27        android:label="@string/app_name"
+27-->/home/luisa/Escritorio/Android/Alzaimer/app/src/main/AndroidManifest.xml:12:9-41
+28        android:roundIcon="@mipmap/ic_launcher_round"
+28-->/home/luisa/Escritorio/Android/Alzaimer/app/src/main/AndroidManifest.xml:13:9-54
+29        android:supportsRtl="true"
+29-->/home/luisa/Escritorio/Android/Alzaimer/app/src/main/AndroidManifest.xml:14:9-35
+30        android:testOnly="true"
+31        android:theme="@style/Theme.Alzaimer" >
+31-->/home/luisa/Escritorio/Android/Alzaimer/app/src/main/AndroidManifest.xml:15:9-46
+32        <activity
+32-->/home/luisa/Escritorio/Android/Alzaimer/app/src/main/AndroidManifest.xml:17:9-23:20
+33            android:name="com.example.alzaimer.GameDifficultyActivity"
+33-->/home/luisa/Escritorio/Android/Alzaimer/app/src/main/AndroidManifest.xml:17:19-57
+34            android:exported="true" >
+34-->/home/luisa/Escritorio/Android/Alzaimer/app/src/main/AndroidManifest.xml:18:13-36
+35            <intent-filter>
+35-->/home/luisa/Escritorio/Android/Alzaimer/app/src/main/AndroidManifest.xml:19:13-22:29
+36                <action android:name="com.example.alzaimer.GameDifficultyActivity" />
+36-->/home/luisa/Escritorio/Android/Alzaimer/app/src/main/AndroidManifest.xml:20:17-86
+36-->/home/luisa/Escritorio/Android/Alzaimer/app/src/main/AndroidManifest.xml:20:25-83
+37
+38                <category android:name="android.intent.category.DEFAULT" />
+38-->/home/luisa/Escritorio/Android/Alzaimer/app/src/main/AndroidManifest.xml:21:17-76
+38-->/home/luisa/Escritorio/Android/Alzaimer/app/src/main/AndroidManifest.xml:21:27-73
+39            </intent-filter>
+40        </activity>
+41        <activity
+41-->/home/luisa/Escritorio/Android/Alzaimer/app/src/main/AndroidManifest.xml:24:9-30:20
+42            android:name="com.example.alzaimer.GameActivity"
+42-->/home/luisa/Escritorio/Android/Alzaimer/app/src/main/AndroidManifest.xml:24:19-47
+43            android:exported="true" >
+43-->/home/luisa/Escritorio/Android/Alzaimer/app/src/main/AndroidManifest.xml:25:13-36
+44            <intent-filter>
+44-->/home/luisa/Escritorio/Android/Alzaimer/app/src/main/AndroidManifest.xml:26:13-29:29
+45                <action android:name="com.example.alzaimer.GameActivity" />
+45-->/home/luisa/Escritorio/Android/Alzaimer/app/src/main/AndroidManifest.xml:27:17-76
+45-->/home/luisa/Escritorio/Android/Alzaimer/app/src/main/AndroidManifest.xml:27:25-73
+46
+47                <category android:name="android.intent.category.DEFAULT" />
+47-->/home/luisa/Escritorio/Android/Alzaimer/app/src/main/AndroidManifest.xml:21:17-76
+47-->/home/luisa/Escritorio/Android/Alzaimer/app/src/main/AndroidManifest.xml:21:27-73
+48            </intent-filter>
+49        </activity>
+50        <activity
+50-->/home/luisa/Escritorio/Android/Alzaimer/app/src/main/AndroidManifest.xml:31:9-37:20
+51            android:name="com.example.alzaimer.ChooseNumberActivity"
+51-->/home/luisa/Escritorio/Android/Alzaimer/app/src/main/AndroidManifest.xml:31:19-55
+52            android:exported="true" >
+52-->/home/luisa/Escritorio/Android/Alzaimer/app/src/main/AndroidManifest.xml:32:13-36
+53            <intent-filter>
+53-->/home/luisa/Escritorio/Android/Alzaimer/app/src/main/AndroidManifest.xml:33:13-36:29
+54                <action android:name="com.example.alzaimer.ChooseNumberActivity" />
+54-->/home/luisa/Escritorio/Android/Alzaimer/app/src/main/AndroidManifest.xml:34:17-84
+54-->/home/luisa/Escritorio/Android/Alzaimer/app/src/main/AndroidManifest.xml:34:25-81
+55
+56                <category android:name="android.intent.category.DEFAULT" />
+56-->/home/luisa/Escritorio/Android/Alzaimer/app/src/main/AndroidManifest.xml:21:17-76
+56-->/home/luisa/Escritorio/Android/Alzaimer/app/src/main/AndroidManifest.xml:21:27-73
+57            </intent-filter>
+58        </activity>
+59        <activity
+59-->/home/luisa/Escritorio/Android/Alzaimer/app/src/main/AndroidManifest.xml:38:9-40:40
+60            android:name="com.example.alzaimer.Sudoku"
+60-->/home/luisa/Escritorio/Android/Alzaimer/app/src/main/AndroidManifest.xml:39:13-35
+61            android:exported="false" />
+61-->/home/luisa/Escritorio/Android/Alzaimer/app/src/main/AndroidManifest.xml:40:13-37
+62        <activity
+62-->/home/luisa/Escritorio/Android/Alzaimer/app/src/main/AndroidManifest.xml:41:9-43:40
+63            android:name="com.example.alzaimer.Felicidades"
+63-->/home/luisa/Escritorio/Android/Alzaimer/app/src/main/AndroidManifest.xml:42:13-40
+64            android:exported="false" />
+64-->/home/luisa/Escritorio/Android/Alzaimer/app/src/main/AndroidManifest.xml:43:13-37
+65        <activity
+65-->/home/luisa/Escritorio/Android/Alzaimer/app/src/main/AndroidManifest.xml:44:9-46:40
+66            android:name="com.example.alzaimer.Lectura"
+66-->/home/luisa/Escritorio/Android/Alzaimer/app/src/main/AndroidManifest.xml:45:13-36
+67            android:exported="false" />
+67-->/home/luisa/Escritorio/Android/Alzaimer/app/src/main/AndroidManifest.xml:46:13-37
+68        <activity
+68-->/home/luisa/Escritorio/Android/Alzaimer/app/src/main/AndroidManifest.xml:47:9-49:40
+69            android:name="com.example.alzaimer.Deporte"
+69-->/home/luisa/Escritorio/Android/Alzaimer/app/src/main/AndroidManifest.xml:48:13-36
+70            android:exported="false" />
+70-->/home/luisa/Escritorio/Android/Alzaimer/app/src/main/AndroidManifest.xml:49:13-37
+71        <activity
+71-->/home/luisa/Escritorio/Android/Alzaimer/app/src/main/AndroidManifest.xml:50:9-52:40
+72            android:name="com.example.alzaimer.Tips"
+72-->/home/luisa/Escritorio/Android/Alzaimer/app/src/main/AndroidManifest.xml:51:13-33
+73            android:exported="false" />
+73-->/home/luisa/Escritorio/Android/Alzaimer/app/src/main/AndroidManifest.xml:52:13-37
+74        <activity
+74-->/home/luisa/Escritorio/Android/Alzaimer/app/src/main/AndroidManifest.xml:53:9-60:20
+75            android:name="com.example.alzaimer.MainActivity"
+75-->/home/luisa/Escritorio/Android/Alzaimer/app/src/main/AndroidManifest.xml:54:13-41
+76            android:exported="true" >
+76-->/home/luisa/Escritorio/Android/Alzaimer/app/src/main/AndroidManifest.xml:55:13-36
+77            <intent-filter>
+77-->/home/luisa/Escritorio/Android/Alzaimer/app/src/main/AndroidManifest.xml:56:13-59:29
+78                <action android:name="android.intent.action.MAIN" />
+78-->/home/luisa/Escritorio/Android/Alzaimer/app/src/main/AndroidManifest.xml:57:17-69
+78-->/home/luisa/Escritorio/Android/Alzaimer/app/src/main/AndroidManifest.xml:57:25-66
+79
+80                <category android:name="android.intent.category.LAUNCHER" />
+80-->/home/luisa/Escritorio/Android/Alzaimer/app/src/main/AndroidManifest.xml:58:17-77
+80-->/home/luisa/Escritorio/Android/Alzaimer/app/src/main/AndroidManifest.xml:58:27-74
+81            </intent-filter>
+82        </activity>
+83
+84        <provider
+84-->[androidx.emoji2:emoji2:1.2.0] /home/luisa/.gradle/caches/transforms-3/0fef484d2d7d3612c69865f977f8c08f/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+85            android:name="androidx.startup.InitializationProvider"
+85-->[androidx.emoji2:emoji2:1.2.0] /home/luisa/.gradle/caches/transforms-3/0fef484d2d7d3612c69865f977f8c08f/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+86            android:authorities="com.example.alzaimer.androidx-startup"
+86-->[androidx.emoji2:emoji2:1.2.0] /home/luisa/.gradle/caches/transforms-3/0fef484d2d7d3612c69865f977f8c08f/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+87            android:exported="false" >
+87-->[androidx.emoji2:emoji2:1.2.0] /home/luisa/.gradle/caches/transforms-3/0fef484d2d7d3612c69865f977f8c08f/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+88            <meta-data
+88-->[androidx.emoji2:emoji2:1.2.0] /home/luisa/.gradle/caches/transforms-3/0fef484d2d7d3612c69865f977f8c08f/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+89                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+89-->[androidx.emoji2:emoji2:1.2.0] /home/luisa/.gradle/caches/transforms-3/0fef484d2d7d3612c69865f977f8c08f/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+90                android:value="androidx.startup" />
+90-->[androidx.emoji2:emoji2:1.2.0] /home/luisa/.gradle/caches/transforms-3/0fef484d2d7d3612c69865f977f8c08f/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+91            <meta-data
+91-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/luisa/.gradle/caches/transforms-3/ae3e8265de2d7f874c642be745cd48da/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+92                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+92-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/luisa/.gradle/caches/transforms-3/ae3e8265de2d7f874c642be745cd48da/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+93                android:value="androidx.startup" />
+93-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/luisa/.gradle/caches/transforms-3/ae3e8265de2d7f874c642be745cd48da/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+94        </provider>
+95    </application>
+96
+97</manifest>

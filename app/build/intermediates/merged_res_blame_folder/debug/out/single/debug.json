@@ -1,0 +1,226 @@
+[
+    {
+        "merged": "/home/luisa/.gradle/daemon/8.0/com.example.alzaimer.app-merged_res-29:/layout_activity_deporte.xml.flat",
+        "source": "/home/luisa/.gradle/daemon/8.0/com.example.alzaimer.app-main-31:/layout/activity_deporte.xml"
+    },
+    {
+        "merged": "/home/luisa/.gradle/daemon/8.0/com.example.alzaimer.app-merged_res-29:/drawable_table_border_cell_unsure.xml.flat",
+        "source": "/home/luisa/.gradle/daemon/8.0/com.example.alzaimer.app-main-31:/drawable/table_border_cell_unsure.xml"
+    },
+    {
+        "merged": "/home/luisa/.gradle/daemon/8.0/com.example.alzaimer.app-merged_res-29:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "/home/luisa/.gradle/daemon/8.0/com.example.alzaimer.app-main-31:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/home/luisa/.gradle/daemon/8.0/com.example.alzaimer.app-merged_res-29:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "/home/luisa/.gradle/daemon/8.0/com.example.alzaimer.app-main-31:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/home/luisa/.gradle/daemon/8.0/com.example.alzaimer.app-merged_res-29:/drawable_rectangle_1.png.flat",
+        "source": "/home/luisa/.gradle/daemon/8.0/com.example.alzaimer.app-main-31:/drawable/rectangle_1.png"
+    },
+    {
+        "merged": "/home/luisa/.gradle/daemon/8.0/com.example.alzaimer.app-merged_res-29:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "/home/luisa/.gradle/daemon/8.0/com.example.alzaimer.app-main-31:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/home/luisa/.gradle/daemon/8.0/com.example.alzaimer.app-merged_res-29:/raw_hard.txt.flat",
+        "source": "/home/luisa/.gradle/daemon/8.0/com.example.alzaimer.app-main-31:/raw/hard.txt"
+    },
+    {
+        "merged": "/home/luisa/.gradle/daemon/8.0/com.example.alzaimer.app-merged_res-29:/drawable_image_14.png.flat",
+        "source": "/home/luisa/.gradle/daemon/8.0/com.example.alzaimer.app-main-31:/drawable/image_14.png"
+    },
+    {
+        "merged": "/home/luisa/.gradle/daemon/8.0/com.example.alzaimer.app-merged_res-29:/layout_activity_felicidades.xml.flat",
+        "source": "/home/luisa/.gradle/daemon/8.0/com.example.alzaimer.app-main-31:/layout/activity_felicidades.xml"
+    },
+    {
+        "merged": "/home/luisa/.gradle/daemon/8.0/com.example.alzaimer.app-merged_res-29:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "/home/luisa/.gradle/daemon/8.0/com.example.alzaimer.app-main-31:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/home/luisa/.gradle/daemon/8.0/com.example.alzaimer.app-merged_res-29:/layout_activity_lectura.xml.flat",
+        "source": "/home/luisa/.gradle/daemon/8.0/com.example.alzaimer.app-main-31:/layout/activity_lectura.xml"
+    },
+    {
+        "merged": "/home/luisa/.gradle/daemon/8.0/com.example.alzaimer.app-merged_res-29:/drawable_image_3.png.flat",
+        "source": "/home/luisa/.gradle/daemon/8.0/com.example.alzaimer.app-main-31:/drawable/image_3.png"
+    },
+    {
+        "merged": "/home/luisa/.gradle/daemon/8.0/com.example.alzaimer.app-merged_res-29:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/home/luisa/.gradle/daemon/8.0/com.example.alzaimer.app-main-31:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/home/luisa/.gradle/daemon/8.0/com.example.alzaimer.app-merged_res-29:/drawable_image_18.png.flat",
+        "source": "/home/luisa/.gradle/daemon/8.0/com.example.alzaimer.app-main-31:/drawable/image_18.png"
+    },
+    {
+        "merged": "/home/luisa/.gradle/daemon/8.0/com.example.alzaimer.app-merged_res-29:/drawable_image_11.png.flat",
+        "source": "/home/luisa/.gradle/daemon/8.0/com.example.alzaimer.app-main-31:/drawable/image_11.png"
+    },
+    {
+        "merged": "/home/luisa/.gradle/daemon/8.0/com.example.alzaimer.app-merged_res-29:/raw_easy.txt.flat",
+        "source": "/home/luisa/.gradle/daemon/8.0/com.example.alzaimer.app-main-31:/raw/easy.txt"
+    },
+    {
+        "merged": "com.example.alzaimer.app-merged_res-29:/layout_activity_game.xml.flat",
+        "source": "com.example.alzaimer.app-main-31:/layout/activity_game.xml"
+    },
+    {
+        "merged": "/home/luisa/.gradle/daemon/8.0/com.example.alzaimer.app-merged_res-29:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "/home/luisa/.gradle/daemon/8.0/com.example.alzaimer.app-main-31:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/home/luisa/.gradle/daemon/8.0/com.example.alzaimer.app-merged_res-29:/xml_backup_rules.xml.flat",
+        "source": "/home/luisa/.gradle/daemon/8.0/com.example.alzaimer.app-main-31:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "/home/luisa/.gradle/daemon/8.0/com.example.alzaimer.app-merged_res-29:/drawable_table_border_group.xml.flat",
+        "source": "/home/luisa/.gradle/daemon/8.0/com.example.alzaimer.app-main-31:/drawable/table_border_group.xml"
+    },
+    {
+        "merged": "/home/luisa/.gradle/daemon/8.0/com.example.alzaimer.app-merged_res-29:/layout_fragment_cell_group.xml.flat",
+        "source": "/home/luisa/.gradle/daemon/8.0/com.example.alzaimer.app-main-31:/layout/fragment_cell_group.xml"
+    },
+    {
+        "merged": "/home/luisa/.gradle/daemon/8.0/com.example.alzaimer.app-merged_res-29:/drawable_group_2.png.flat",
+        "source": "/home/luisa/.gradle/daemon/8.0/com.example.alzaimer.app-main-31:/drawable/group_2.png"
+    },
+    {
+        "merged": "/home/luisa/.gradle/daemon/8.0/com.example.alzaimer.app-merged_res-29:/drawable_image_17.png.flat",
+        "source": "/home/luisa/.gradle/daemon/8.0/com.example.alzaimer.app-main-31:/drawable/image_17.png"
+    },
+    {
+        "merged": "/home/luisa/.gradle/daemon/8.0/com.example.alzaimer.app-merged_res-29:/drawable_image_2.png.flat",
+        "source": "/home/luisa/.gradle/daemon/8.0/com.example.alzaimer.app-main-31:/drawable/image_2.png"
+    },
+    {
+        "merged": "/home/luisa/.gradle/daemon/8.0/com.example.alzaimer.app-merged_res-29:/drawable_line_1.png.flat",
+        "source": "/home/luisa/.gradle/daemon/8.0/com.example.alzaimer.app-main-31:/drawable/line_1.png"
+    },
+    {
+        "merged": "/home/luisa/.gradle/daemon/8.0/com.example.alzaimer.app-merged_res-29:/layout_activity_choose_number.xml.flat",
+        "source": "/home/luisa/.gradle/daemon/8.0/com.example.alzaimer.app-main-31:/layout/activity_choose_number.xml"
+    },
+    {
+        "merged": "/home/luisa/.gradle/daemon/8.0/com.example.alzaimer.app-merged_res-29:/layout_activity_main.xml.flat",
+        "source": "/home/luisa/.gradle/daemon/8.0/com.example.alzaimer.app-main-31:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/luisa/.gradle/daemon/8.0/com.example.alzaimer.app-merged_res-29:/layout_activity_game.xml.flat",
+        "source": "/home/luisa/.gradle/daemon/8.0/com.example.alzaimer.app-main-31:/layout/activity_game.xml"
+    },
+    {
+        "merged": "/home/luisa/.gradle/daemon/8.0/com.example.alzaimer.app-merged_res-29:/drawable_table_border_cell.xml.flat",
+        "source": "/home/luisa/.gradle/daemon/8.0/com.example.alzaimer.app-main-31:/drawable/table_border_cell.xml"
+    },
+    {
+        "merged": "/home/luisa/.gradle/daemon/8.0/com.example.alzaimer.app-merged_res-29:/drawable_image_20.png.flat",
+        "source": "/home/luisa/.gradle/daemon/8.0/com.example.alzaimer.app-main-31:/drawable/image_20.png"
+    },
+    {
+        "merged": "/home/luisa/.gradle/daemon/8.0/com.example.alzaimer.app-merged_res-29:/layout_activity_sopa_de_letras.xml.flat",
+        "source": "/home/luisa/.gradle/daemon/8.0/com.example.alzaimer.app-main-31:/layout/activity_sopa_de_letras.xml"
+    },
+    {
+        "merged": "/home/luisa/.gradle/daemon/8.0/com.example.alzaimer.app-merged_res-29:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "/home/luisa/.gradle/daemon/8.0/com.example.alzaimer.app-main-31:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/home/luisa/.gradle/daemon/8.0/com.example.alzaimer.app-merged_res-29:/drawable_image_5.png.flat",
+        "source": "/home/luisa/.gradle/daemon/8.0/com.example.alzaimer.app-main-31:/drawable/image_5.png"
+    },
+    {
+        "merged": "/home/luisa/.gradle/daemon/8.0/com.example.alzaimer.app-merged_res-29:/drawable_image_16.png.flat",
+        "source": "/home/luisa/.gradle/daemon/8.0/com.example.alzaimer.app-main-31:/drawable/image_16.png"
+    },
+    {
+        "merged": "/home/luisa/.gradle/daemon/8.0/com.example.alzaimer.app-merged_res-29:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "/home/luisa/.gradle/daemon/8.0/com.example.alzaimer.app-main-31:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/home/luisa/.gradle/daemon/8.0/com.example.alzaimer.app-merged_res-29:/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "/home/luisa/.gradle/daemon/8.0/com.example.alzaimer.app-main-31:/drawable-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/home/luisa/.gradle/daemon/8.0/com.example.alzaimer.app-merged_res-29:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "/home/luisa/.gradle/daemon/8.0/com.example.alzaimer.app-main-31:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/home/luisa/.gradle/daemon/8.0/com.example.alzaimer.app-merged_res-29:/drawable_image_13.png.flat",
+        "source": "/home/luisa/.gradle/daemon/8.0/com.example.alzaimer.app-main-31:/drawable/image_13.png"
+    },
+    {
+        "merged": "/home/luisa/.gradle/daemon/8.0/com.example.alzaimer.app-merged_res-29:/drawable_image_1.png.flat",
+        "source": "/home/luisa/.gradle/daemon/8.0/com.example.alzaimer.app-main-31:/drawable/image_1.png"
+    },
+    {
+        "merged": "/home/luisa/.gradle/daemon/8.0/com.example.alzaimer.app-merged_res-29:/layout_activity_game_difficulty.xml.flat",
+        "source": "/home/luisa/.gradle/daemon/8.0/com.example.alzaimer.app-main-31:/layout/activity_game_difficulty.xml"
+    },
+    {
+        "merged": "/home/luisa/.gradle/daemon/8.0/com.example.alzaimer.app-merged_res-29:/font_amiko_semibold.ttf.flat",
+        "source": "/home/luisa/.gradle/daemon/8.0/com.example.alzaimer.app-main-31:/font/amiko_semibold.ttf"
+    },
+    {
+        "merged": "/home/luisa/.gradle/daemon/8.0/com.example.alzaimer.app-merged_res-29:/drawable_ic_launcher_background.xml.flat",
+        "source": "/home/luisa/.gradle/daemon/8.0/com.example.alzaimer.app-main-31:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/home/luisa/.gradle/daemon/8.0/com.example.alzaimer.app-merged_res-29:/raw_normal.txt.flat",
+        "source": "/home/luisa/.gradle/daemon/8.0/com.example.alzaimer.app-main-31:/raw/normal.txt"
+    },
+    {
+        "merged": "/home/luisa/.gradle/daemon/8.0/com.example.alzaimer.app-merged_res-29:/xml_data_extraction_rules.xml.flat",
+        "source": "/home/luisa/.gradle/daemon/8.0/com.example.alzaimer.app-main-31:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "/home/luisa/.gradle/daemon/8.0/com.example.alzaimer.app-merged_res-29:/drawable_image_4.png.flat",
+        "source": "/home/luisa/.gradle/daemon/8.0/com.example.alzaimer.app-main-31:/drawable/image_4.png"
+    },
+    {
+        "merged": "/home/luisa/.gradle/daemon/8.0/com.example.alzaimer.app-merged_res-29:/drawable_image_15.png.flat",
+        "source": "/home/luisa/.gradle/daemon/8.0/com.example.alzaimer.app-main-31:/drawable/image_15.png"
+    },
+    {
+        "merged": "/home/luisa/.gradle/daemon/8.0/com.example.alzaimer.app-merged_res-29:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "/home/luisa/.gradle/daemon/8.0/com.example.alzaimer.app-main-31:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/home/luisa/.gradle/daemon/8.0/com.example.alzaimer.app-merged_res-29:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/home/luisa/.gradle/daemon/8.0/com.example.alzaimer.app-main-31:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/home/luisa/.gradle/daemon/8.0/com.example.alzaimer.app-merged_res-29:/drawable_group_1.png.flat",
+        "source": "/home/luisa/.gradle/daemon/8.0/com.example.alzaimer.app-main-31:/drawable/group_1.png"
+    },
+    {
+        "merged": "/home/luisa/.gradle/daemon/8.0/com.example.alzaimer.app-merged_res-29:/drawable_image_20_1.png.flat",
+        "source": "/home/luisa/.gradle/daemon/8.0/com.example.alzaimer.app-main-31:/drawable/image_20_1.png"
+    },
+    {
+        "merged": "/home/luisa/.gradle/daemon/8.0/com.example.alzaimer.app-merged_res-29:/layout_activity_sudoku.xml.flat",
+        "source": "/home/luisa/.gradle/daemon/8.0/com.example.alzaimer.app-main-31:/layout/activity_sudoku.xml"
+    },
+    {
+        "merged": "/home/luisa/.gradle/daemon/8.0/com.example.alzaimer.app-merged_res-29:/layout_activity_crucigrama.xml.flat",
+        "source": "/home/luisa/.gradle/daemon/8.0/com.example.alzaimer.app-main-31:/layout/activity_crucigrama.xml"
+    },
+    {
+        "merged": "/home/luisa/.gradle/daemon/8.0/com.example.alzaimer.app-merged_res-29:/drawable_image_11_1.png.flat",
+        "source": "/home/luisa/.gradle/daemon/8.0/com.example.alzaimer.app-main-31:/drawable/image_11_1.png"
+    },
+    {
+        "merged": "/home/luisa/.gradle/daemon/8.0/com.example.alzaimer.app-merged_res-29:/layout_activity_tips.xml.flat",
+        "source": "/home/luisa/.gradle/daemon/8.0/com.example.alzaimer.app-main-31:/layout/activity_tips.xml"
+    },
+    {
+        "merged": "/home/luisa/.gradle/daemon/8.0/com.example.alzaimer.app-merged_res-29:/drawable_image_12.png.flat",
+        "source": "/home/luisa/.gradle/daemon/8.0/com.example.alzaimer.app-main-31:/drawable/image_12.png"
+    },
+    {
+        "merged": "/home/luisa/.gradle/daemon/8.0/com.example.alzaimer.app-merged_res-29:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "/home/luisa/.gradle/daemon/8.0/com.example.alzaimer.app-main-31:/mipmap-xhdpi/ic_launcher.webp"
+    }
+]

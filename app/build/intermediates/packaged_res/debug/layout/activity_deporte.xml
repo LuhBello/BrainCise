@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fondo"
+    tools:context=".Deporte">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="370dp"
+        android:layout_height="680dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="495dp"
+            android:contentDescription="@string/descripcion_imagen_mueve"
+            app:srcCompat="@drawable/image_18" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <ImageButton
+                    android:id="@+id/imageButton7"
+                    android:layout_width="115dp"
+                    android:layout_height="120dp"
+                    android:backgroundTint="#00FFFFFF"
+                    android:contentDescription="@string/boton_menu"
+                    android:onClick="IrMenu"
+                    android:padding="20dp"
+                    app:srcCompat="@drawable/image_12" />
+
+            </TableRow>
+
+        </TableLayout>
+
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/imageButton10"
+        android:layout_width="185dp"
+        android:layout_height="198dp"
+        android:backgroundTint="#00FFFFFF"
+        android:contentDescription="@string/boton_pasar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/image_20_1" />
+
+    <WebView
+        android:id="@+id/gif_deporte"
+        android:layout_width="263dp"
+        android:layout_height="288dp"
+        android:layout_marginBottom="80dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
