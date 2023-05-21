@@ -55,13 +55,18 @@
         android:layout_width="207dp"
         android:layout_height="131dp"
         android:layout_marginBottom="70dp"
+        android:backgroundTint="#FFC107"
+        android:foregroundTint="#000000"
         android:onClick="IrEmpezar"
-        android:text="EMPEZAR"
+        android:text="@string/bttn_empezar"
         android:textAlignment="center"
+        android:textColor="@color/black"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:strokeColor="#F2000000"
+        app:strokeWidth="3dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

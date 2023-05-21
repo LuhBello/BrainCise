@@ -27,20 +27,20 @@
     <string name="instructions_1">1. In Sudoku it is intended to place all the remaining pieces on the board. The numbers range from 1 to 9 (in 9x9 Sudoku).</string>
     <string name="instructions_2">2. The board is separated into several squares, and inside each of them it is only allowed to place one of each number.</string>
     <string name="instructions_3">3. It is only allowed to place one of each number at each row, both horizontal and vertical.</string>
-    <string name="go_back_button">Go back</string>
-
-    <string name="choose_difficulty">Choose difficulty:</string>
-    <string name="difficulty_easy">Easy</string>
+    <string name="go_back_button">Atrás</string>
+    <string name="bttn_empezar">EMPEZAR</string>
+    <string name="choose_difficulty">Escoge la dificultad:</string>
+    <string name="difficulty_easy">Fácil</string>
     <string name="difficulty_normal">Normal</string>
-    <string name="difficulty_hard">Hard</string>
-    <string name="start_game">Start Game</string>
-    <string name="choose_number">Choose number</string>
-    <string name="choose_a_number">Choose number to place:</string>
-    <string name="place_number">Place number</string>
-    <string name="piece_unsure">Mark piece as unsure</string>
-    <string name="remove_piece">Remove piece</string>
-    <string name="start_piece_error">Can not change start piece</string>
-    <string name="check_board">Check board</string>
-    <string name="board_correct">Board is correct</string>
-    <string name="board_incorrect">Board is not correct</string>
+    <string name="difficulty_hard">Difícil</string>
+    <string name="start_game">Iniciar el juego</string>
+    <string name="choose_number">Elige un número</string>
+    <string name="choose_a_number">Elige el lugar del número:</string>
+    <string name="place_number">Lugar del número</string>
+    <string name="piece_unsure">Marca al lugar como inseguro</string>
+    <string name="remove_piece">Quta el lugar</string>
+    <string name="start_piece_error">No puedes cambiar este lugar</string>
+    <string name="check_board">Verifica el tablero</string>
+    <string name="board_correct">El tablero es correcto</string>
+    <string name="board_incorrect">El tablero es incorrecto</string>
 </resources>
