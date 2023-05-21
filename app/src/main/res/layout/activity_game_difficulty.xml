@@ -1,28 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+    android:background="@color/fondo"
+    android:backgroundTint="@color/fondo">
 
     <TextView
         android:id="@+id/textView10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="104dp"
+        android:layout_marginEnd="96dp"
         android:text="@string/choose_difficulty"
+        android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.231" />
+        app:layout_constraintVertical_bias="0.213" />
 
     <RadioGroup
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="124dp"
+        android:layout_marginLeft="148dp"
+        android:layout_marginEnd="148dp"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.375">
+        app:layout_constraintVertical_bias="0.381">
 
         <RadioButton
             android:id="@+id/radioButtonEasy"
@@ -30,7 +37,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:onClick="onDifficultyRadioButtonsClicked"
-            android:text="@string/difficulty_easy" />
+            android:text="@string/difficulty_easy"
+            android:textSize="24sp" />
 
         <RadioButton
             android:id="@+id/radioButtonNormal"
@@ -38,7 +46,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:onClick="onDifficultyRadioButtonsClicked"
-            android:text="@string/difficulty_normal" />
+            android:text="@string/difficulty_normal"
+            android:textSize="24sp" />
 
         <RadioButton
             android:id="@+id/radioButtonHard"
@@ -46,32 +55,46 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:onClick="onDifficultyRadioButtonsClicked"
-            android:text="@string/difficulty_hard" />
+            android:text="@string/difficulty_hard"
+            android:textSize="24sp" />
     </RadioGroup>
 
     <Button
         android:id="@+id/buttonContinue"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="108dp"
+        android:layout_marginLeft="68dp"
+        android:layout_marginEnd="68dp"
+        android:backgroundTint="#FFC107"
+        android:foregroundTint="#000000"
         android:onClick="onStartGameButtonClicked"
         android:text="@string/start_game"
+        android:textColor="@color/black"
+        android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.568" />
+        app:layout_constraintVertical_bias="0.624"
+        app:strokeColor="#000000"
+        app:strokeWidth="2dp" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="16dp"
+        android:backgroundTint="#FFC107"
         android:onClick="onGoBackButtonClicked"
         android:text="@string/go_back_button"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.077"
         app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.965"
-        android:layout_marginStart="16dp" />
+        app:layout_constraintVertical_bias="0.956"
+        app:strokeColor="#000000"
+        app:strokeWidth="2dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
